@@ -7,6 +7,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Components;
 using Content.Shared.Shuttles.Components;
+using Content.Shared.Sectors;
 
 namespace Content.Client.Shuttles.UI;
 
@@ -15,6 +16,7 @@ public sealed partial class NavScreen : BoxContainer
 {
     [Dependency] private readonly IEntityManager _entManager = default!;
     private SharedTransformSystem _xformSystem;
+    private SharedSectorSystem _sectorSystem;
 
     private EntityUid? _consoleEntity; // Entity of controlling console
     private EntityUid? _shuttleEntity;
@@ -26,6 +28,7 @@ public sealed partial class NavScreen : BoxContainer
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
         _xformSystem = _entManager.System<SharedTransformSystem>();
+        _sectorSystem = _entManager.System<SharedSectorSystem>();
 
         IFFToggle.OnToggled += OnIFFTogglePressed;
         IFFToggle.Pressed = NavRadar.ShowIFF;
@@ -99,6 +102,8 @@ public sealed partial class NavScreen : BoxContainer
         GridPosition.Text = Loc.GetString("shuttle-console-position-value",
             ("X", $"{worldPos.X:0.0}"),
             ("Y", $"{worldPos.Y:0.0}"));
+        GridSector.Text = Loc.GetString("shuttle-console-sector-value",
+            ("sector", _sectorSystem.GetSectorName(_sectorSystem.GetSector(worldPos))));
         GridOrientation.Text = Loc.GetString("shuttle-console-orientation-value",
             ("angle", $"{displayRot.Degrees:0.0}"));
 

@@ -35,6 +35,11 @@
                                Text="0.0, 0.0"
                                HorizontalExpand="True"
                                Align="Right"/>
+                        <controls:Label Text="{controls:Loc 'shuttle-console-sector'}"/>
+                        <controls:Label Name="GridSector"
+                               Text="Center"
+                               HorizontalExpand="True"
+                               Align="Right"/>
                         <controls:Label Text="{controls:Loc 'shuttle-console-orientation'}"/>
                         <controls:Label Name="GridOrientation"
                                Text="0.0"

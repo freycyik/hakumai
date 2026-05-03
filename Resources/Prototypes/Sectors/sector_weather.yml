@@ -1,0 +1,4 @@
+- type: sectorWeather
+  id: GravitationalStorm
+  name: sector-weather-gravitational-storm
+  borderColor: "#7B3FA0C0"
