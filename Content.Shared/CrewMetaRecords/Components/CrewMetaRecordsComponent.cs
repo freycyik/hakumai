@@ -1,5 +1,6 @@
 using Content.Shared.CrewAssignments.Prototypes;
 using Content.Shared.CrewAssignments.Systems;
+using Content.Shared.MessageBoard.Components;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -7,7 +8,6 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 namespace Content.Shared.CrewMetaRecords;
 
 [RegisterComponent, NetworkedComponent]
-[AutoGenerateComponentState]
 public sealed partial class CrewMetaRecordsComponent : Component
 {
     [DataField]
@@ -26,6 +26,8 @@ public sealed partial class CrewMetaRecordsComponent : Component
     public List<WorldObjectivesEntry> CompletedObjectives { get; set; } = new();
     [DataField]
     public List<CodexEntry> CodexEntries { get; set; } = new();
+
+    public List<MessageBoardEntry> MessageBoardEntries { get; set; } = new();
     [DataField]
     public Dictionary<string, CrewMetaRecord> CrewMetaRecords { get; set; } = new();
     [DataField]
