@@ -981,7 +981,7 @@
         children:
         - id: TreasureCoinIron
           weight: 0.75
-        - id: TreasueCoinSilver
+        - id: TreasureCoinSilver
           weight: 0.5
         - id: TreasureCoinGold
           weight: 0.25
