@@ -408,7 +408,7 @@
         - ReagentId: Titanium
           Quantity: 3
         - ReagentId: Phoron
-          Quantity: 1 # 1 phoron glass to 1 Phoron reagent
+          Quantity: .5 # 1 phoron glass to 1 Phoron reagent, max expected yield with chem recipes of 1.1u
         canReact: false
 
 - type: entity
@@ -493,7 +493,7 @@
         - ReagentId: Carbon
           Quantity: 0.5
         - ReagentId: Phoron
-          Quantity: 1
+          Quantity: .5 # Max expected yield of 1.1
         canReact: false
 
 - type: entity

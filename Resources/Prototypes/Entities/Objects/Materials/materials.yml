@@ -446,7 +446,7 @@
         - ReagentId: Titanium
           Quantity: 9
         - ReagentId: Phoron
-          Quantity: 1 # 1 phoron alloy to 1u Phoron reagent, with phoron-synthesis reaction you can get up to 2.8 per plate
+          Quantity: .5 # 1 phoron alloy to 1u Phoron reagent, with phoron-synthesis reaction you can get up to 2.3 per alloy
         canReact: false
   - type: Material
   - type: PhysicalComposition
