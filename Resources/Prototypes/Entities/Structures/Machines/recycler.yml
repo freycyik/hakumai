@@ -68,12 +68,7 @@
     minimumProcessDuration: 0
     whitelist:
       components:
-      - PhysicalComposition
-      - MobState
-      - SpaceGarbage
-      tags:
-      - Trash
-      - Recyclable
+      - Item
     blacklist:
       components:
       - Material
