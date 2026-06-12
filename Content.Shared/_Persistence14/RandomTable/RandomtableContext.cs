@@ -1,3 +1,5 @@
+using System.Diagnostics.CodeAnalysis;
+using Content.Shared._Persistence14.RandomTable.State;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
@@ -9,8 +11,16 @@ public sealed partial class RandomTableContext
     public required IPrototypeManager PrototypeManager { get; init; }
     public required RandomTableSystem RandomTableSystem { get; init; }
     public required IEntityManager EntityManager { get; init; }
+    public RandomTableStateComponent? State { get; init; } = null;
 
-    public EntityUid? User { get; init; }
-    public EntityUid? Source { get; init; }
-    public EntityUid? Target { get; init; }
+    /// <summary>
+    /// Calls <see cref="RandomTableStateComponent.EnsureContext(RandomTableContextElement, string[])"/> on the State component of the context, provided it exists. 
+    /// </summary>
+    public bool EnsureContext(RandomTableContextElement element, params string[] dataKeys)
+    {
+        if (State is not null)
+            return State.EnsureContext(element, dataKeys);
+        return false;
+    }
 }
+
