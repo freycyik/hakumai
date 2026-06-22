@@ -1489,7 +1489,6 @@
     description: ghost-role-information-monkey-description
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
-  - type: Clumsy
     gunShootFailDamage:
       types:
         Blunt: 5
@@ -1671,7 +1670,6 @@
   parent: MobBaseKobold
   description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
   components:
-  - type: Clumsy
     gunShootFailDamage:
       types:
         Blunt: 2
