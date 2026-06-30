@@ -28,6 +28,7 @@
           - StorageCounter
           - AirAlarm
           - Structure
+          - AirSensor
     - type: PhysicalComposition
       materialComposition:
         Plastic: 50
