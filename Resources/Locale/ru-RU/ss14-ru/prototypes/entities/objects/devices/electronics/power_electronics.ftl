@@ -1,0 +1,15 @@
+ent-APCElectronics = APC electronics
+    .desc = Circuit used in APC construction.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountSubstationElectronics = wallmount substation electronics
+    .desc = Circuit used to construct a wallmount substation.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountGeneratorElectronics = wallmount generator electronics
+    .desc = Circuit used to construct a wallmount generator.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountGeneratorAPUElectronics = wallmount APU electronics
+    .desc = Circuit used to construct a wallmount APU.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-SolarTrackerElectronics = solar tracker electronics
+    .desc = Advanced circuit board used to track the nearest star.
+    .suffix = { ent-BaseElectronics.suffix }

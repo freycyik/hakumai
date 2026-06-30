@@ -1,0 +1,15 @@
+ent-MobWatcherBase = watcher
+    .desc = It's like it's staring right through you.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobWatcherLavaland = { ent-MobWatcherBase }
+    .desc = { ent-MobWatcherBase.desc }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherIcewing = icewing watcher
+    .desc = { ent-MobWatcherBase.desc }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherMagmawing = magmawing watcher
+    .desc = { ent-MobWatcherBase.desc }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherPride = pride watcher
+    .desc = This rare subspecies only appears in June.
+    .suffix = Admeme

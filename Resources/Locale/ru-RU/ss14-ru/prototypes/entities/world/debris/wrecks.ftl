@@ -1,0 +1,16 @@
+ent-BaseScrapDebris = scrap debris
+    .desc = { ent-BaseDebris.desc }
+ent-ScrapDebrisSmall = scrap debris small
+    .desc = { ent-BaseScrapDebris.desc }
+ent-ScrapDebrisMedium = scrap debris medium
+    .desc = { ent-BaseScrapDebris.desc }
+ent-ScrapDebrisLarge = scrap debris large
+    .desc = { ent-BaseScrapDebris.desc }
+ent-BaseBrassWreck = brass wreck
+    .desc = { ent-BaseDebris.desc }
+ent-BrassWreckSmall = brass wreck small
+    .desc = { ent-BaseBrassWreck.desc }
+ent-BrassWreckMedium = brass wreck medium
+    .desc = { ent-BaseBrassWreck.desc }
+ent-BrassWreckLarge = brass wreck large
+    .desc = { ent-BaseBrassWreck.desc }
