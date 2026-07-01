@@ -5,3 +5,5 @@ ent-CrateCargoParcelWrap = ящик обёрточной бумаги
 ent-CrateCargoGambling = грандиозная лотерея $$$
     .desc = Ящик с сокровищами, не поддающимися воображению!
     .suffix = { ent-CratePrivateSecure.suffix }
+ent-BusinessStartingKit = стартовый ящик фракции
+    .desc = Содержит товары, необходимые для создания фракции.

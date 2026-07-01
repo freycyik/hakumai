@@ -63,6 +63,7 @@ guide-entry-jobs = Должности
 guide-entry-cargo = Отдел снабжения
 guide-entry-cargo-bounties = Запросы отдела снабжения
 guide-entry-salvage = Утилизация обломков
+guide-entry-gas-mining = Добыча газов
 guide-entry-survival = Выживание
 guide-entry-janitorial = Уборка станции
 guide-entry-bartender = Бармен
@@ -105,6 +106,7 @@ guide-entry-radio = Радиосвязь
 guide-entry-references = Таблицы и референсы
 guide-entry-chemicals = Химические вещества
 guide-entry-drinks = Напитки
+guide-entry-entities = Рецепты сущностей
 guide-entry-foodrecipes = Рецепты еды
 
 guide-entry-elements = Элементы

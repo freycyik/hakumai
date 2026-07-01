@@ -3,3 +3,5 @@ construction-recipe-gas-pipe-bend = газовая труба (угловая)
 construction-recipe-gas-pipe-t-junction = газовая труба (Т-образная)
 construction-recipe-gas-pipe-fourway = газовая труба (четверная)
 construction-recipe-heat-exchanger-bend = радиатор (угловой)
+construction-recipe-heat-pump-name = тепловой насос
+construction-recipe-heat-pump-desc = Насос, который перемещает тепло с одной стороны на другую.

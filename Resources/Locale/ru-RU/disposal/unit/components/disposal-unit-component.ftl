@@ -1,6 +1,6 @@
 ## UI
 
-ui-disposal-unit-title = {CAPITALIZE($name)}
+ui-disposal-unit-title = { CAPITALIZE($name) }
 
 ui-disposal-unit-label-state = Состояние:
 ui-disposal-unit-label-pressure = Давление:
@@ -15,9 +15,8 @@ disposal-flush-verb-get-data-text = Смыть
 disposal-self-insert-verb-get-data-text = Залезть внутрь
 disposal-eject-verb-get-data-text = Извлечь всё
 
-## Errors
+## No hands
 disposal-unit-no-hands = У вас нет рук!
-disposal-unit-is-full = Внутри больше нет места.
 
 # state
 disposal-unit-state-Ready = Готов

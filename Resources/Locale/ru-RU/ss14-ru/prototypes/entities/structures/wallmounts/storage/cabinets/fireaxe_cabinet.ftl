@@ -9,3 +9,5 @@ ent-FireAxeCabinetFilled = { ent-FireAxeCabinet }
 ent-FireAxeCabinetFilledOpen = { ent-FireAxeCabinetFilled }
     .desc = { ent-FireAxeCabinetFilled.desc }
     .suffix = Открытый, Наполненный
+ent-FireAxeCabinetAssembly = каркас шкафа для пожарного топора
+    .desc = Недостроенная конструкция для шкафа пожарного топора. Топор продаётся отдельно.

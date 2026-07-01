@@ -12,7 +12,6 @@ store-category-allies = Союзники
 store-category-job = Работа
 store-category-wearables = Экипировка
 store-category-pointless = Безделушки
-store-category-objective = Цель
 store-discounted-items = Скидки
 
 # Revenant
@@ -27,8 +26,3 @@ store-caregory-spellbook-events = Заклинания событий
 
 # Nukie Delivery
 store-category-nukie-delivery = Предложения
-
-# Changeling
-store-category-combat = Боевые
-store-category-utility = Вспомогательные
-store-category-stealth = Скрытные

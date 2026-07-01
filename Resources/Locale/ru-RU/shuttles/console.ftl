@@ -11,12 +11,35 @@ shuttle-console-display-label = Дисплей
 
 shuttle-console-position = Координаты:
 shuttle-console-position-value = { $X }, { $Y }
+shuttle-console-sector = Текущий сектор:
+shuttle-console-sector-value = { $sector }
+shuttle-console-hazard-event = Угроза:
+shuttle-console-hazard-event-none = Нет
+shuttle-console-hazard-event-single = { $event }
 shuttle-console-orientation = Азимут:
 shuttle-console-orientation-value  = { $angle }
 shuttle-console-linear-velocity = Линейная скорость:
 shuttle-console-linear-velocity-value = { $X }, { $Y }
 shuttle-console-angular-velocity = Угловая скорость:
 shuttle-console-angular-velocity-value = { $angularVelocity }
+sector-center = Центр
+sector-north = Север
+sector-northeast = Северо-восток
+sector-east = Восток
+sector-southeast = Юго-восток
+sector-south = Юг
+sector-southwest = Юго-запад
+sector-west = Запад
+sector-northwest = Северо-запад
+shuttle-console-damping-label = Торможение
+shuttle-console-damping-cruise = Круиз
+shuttle-console-damping-normal = Обычное
+shuttle-console-damping-anchor = Якорь
+
+shuttle-console-sort-label = Фильтр
+shuttle-console-sort-none = Нет
+shuttle-console-sort-ship = Корабль
+shuttle-console-sort-station = Станция
 
 shuttle-console-unknown = Неизвестно
 shuttle-console-iff-label = { $name } ({ $distance } м)
@@ -51,6 +74,7 @@ shuttle-console-docked = Пристыкованные объекты
 
 shuttle-console-view = Выбрать
 shuttle-console-undock = Отстыковать
+shuttle-console-undock-all = Отстыковать все
 shuttle-console-dock = Пристыковать
 shuttle-console-docks-label = Стыковочные порты
 

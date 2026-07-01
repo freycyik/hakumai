@@ -6,3 +6,5 @@ ent-CryogenicSleepUnitSpawner = { ent-CryogenicSleepUnit }
 ent-CryogenicSleepUnitSpawnerLateJoin = { ent-CryogenicSleepUnit }
     .desc = { ent-CryogenicSleepUnit.desc }
     .suffix = Спавнер, Позднее присоединение
+ent-CryogenicSleepUnitPersonal = персональная капсула сна
+    .desc = { ent-CryogenicSleepUnit.desc }

@@ -9,3 +9,5 @@ ent-ExtinguisherCabinetFilled = { ent-ExtinguisherCabinet }
 ent-ExtinguisherCabinetFilledOpen = { ent-ExtinguisherCabinetFilled }
     .desc = { ent-ExtinguisherCabinetFilled.desc }
     .suffix = Открытый, Наполненный
+ent-ExtinguisherCabinetAssembly = каркас шкафа для огнетушителя
+    .desc = Недостроенный шкаф для огнетушителя.

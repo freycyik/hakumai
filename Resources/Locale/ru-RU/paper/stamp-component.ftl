@@ -20,3 +20,10 @@ stamp-component-stamped-name-ce = Старший инженер
 stamp-component-stamped-name-greytide = Грейтайд
 stamp-component-stamped-name-psychologist = Психолог
 stamp-component-stamped-name-wizard = Волшебник
+
+stamp-component-stamped-name-rd-sol = Научный руководитель SOL
+stamp-component-stamped-name-exec-sol = Представитель SOL
+stamp-component-stamped-name-hos-sol = Шеф полиции SOL
+stamp-component-stamped-name-cmo-sol = Главврач SOL
+stamp-component-stamped-name-qm-sol = Квартирмейстер SOL
+stamp-component-stamped-name-ce-sol = Старший инженер SOL

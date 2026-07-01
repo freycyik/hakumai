@@ -18,3 +18,6 @@ reagent-desc-nitrous-oxide = Знаешь, как всё кажется смеш
 
 reagent-name-frezon = фрезон
 reagent-desc-frezon = Высокоэффективный хладагент... и галлюциноген.
+
+reagent-name-methane = метан
+reagent-desc-methane = Бесцветный, не имеющий запаха углеводородный газ. Легковоспламеняем.

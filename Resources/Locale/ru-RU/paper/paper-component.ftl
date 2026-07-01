@@ -1,4 +1,3 @@
-
 ### UI
 
 paper-ui-blank-page-message = Данная страница оставлена пустой специально
@@ -18,4 +17,11 @@ paper-ui-fill-level = { $currentLength }/{ $maxLength }
 
 paper-ui-save-button = Сохранить ({ $keybind })
 
-paper-tamper-proof-modified-message = Текст на странице был написан с использованием нефальсицицируемых чернил.
+paper-tamper-proof-modified-message = Текст на странице был написан с использованием «нефальсифицируемых» чернил.
+
+# Starlight-Compatible - Form and signature buttons
+paper-form-fill-button = Заполнить
+paper-signature-sign-button = Подписать
+paper-form-dialog-ok = ОК
+paper-form-dialog-cancel = Отмена
+paper-signature-unknown = Неизвестно

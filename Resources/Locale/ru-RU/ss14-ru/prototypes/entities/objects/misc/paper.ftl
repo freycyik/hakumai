@@ -34,3 +34,5 @@ ent-AllTraitorCodesPaper = реестр кодовых слов Синдикат
     .suffix = Адмемы
 ent-Envelope = конверт
     .desc = Небольшой конверт для защиты от посторонних глаз ваших конфиденциальных документов.
+ent-TapeRecorderTranscript = расшифровка записи диктофона
+    .desc = { ent-Paper.desc }

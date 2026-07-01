@@ -117,12 +117,6 @@ laws-owner-station = экипажем станции
 laws-owner-beings = существами
 laws-owner-syndicate = агентами Синдиката
 laws-owner-spider-clan = членами Клана паука
-laws-owner-heads = главам
-laws-owner-legitimate-leadership = законным лидерам
-laws-owner-others = другие
-laws-owner-public = членам общественности
-laws-owner-audience = членам аудитории
-laws-owner-xenoborg-mothership = материнскому кораблю
 laws-owner-xenoborgs = ксеноборгами
 
 law-emag-custom = Только { $name } и лица, им указанные, являются { $title }. Приказы { $name } превыше всего.

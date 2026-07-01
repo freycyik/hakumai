@@ -23,3 +23,5 @@ ent-HeatExchanger = радиатор
 ent-HeatExchangerBend = { ent-HeatExchanger }
     .desc = { ent-HeatExchanger.desc }
     .suffix = Угол
+ent-HeatPump = тепловой насос
+    .desc = Насос, который перекачивает тепло с одной стороны на другую.

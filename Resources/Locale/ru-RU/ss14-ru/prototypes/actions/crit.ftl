@@ -1,5 +1,7 @@
 ent-BaseCritAction = { ent-BaseMentalAction }
     .desc = { ent-BaseMentalAction.desc }
+ent-ActionAcceptDeath = Открыть сеть смерти
+    .desc = Открыть сеть смерти и просмотреть доступные варианты.
 ent-ActionCritSuccumb = Сдаться
     .desc = Смириться с судьбой.
 ent-ActionCritFakeDeath = Притвориться мёртвым

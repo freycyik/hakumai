@@ -73,6 +73,10 @@ construction-graph-tag-apron = фартук
 construction-graph-tag-utility-belt = пояс для инструментов
 soil-construction-graph-any-mushroom = любой гриб
 construction-graph-tag-mop-basic = швабра
+construction-graph-tag-toolbox = любой ящик для инструментов
+construction-graph-tag-red-light-tube = красная лампа-трубка
+construction-graph-tag-cyan-light-tube = бирюзовая лампа-трубка
+construction-graph-tag-candle = свеча
 construction-graph-tag-paper = офисная бумага
 construction-graph-tag-core-pinpointer-piece = часть пинпоинтера ядра
 
@@ -81,6 +85,8 @@ construction-graph-tag-rubber-ducky = резиновая уточка
 construction-graph-tag-ghost = плюшевый призрак
 construction-graph-tag-ectoplasm = эктоплазма
 construction-graph-tag-lizard-plushie = плюшевый унатх
+construction-graph-tag-slime-plushie = плюшевый слайм
+construction-graph-tag-dice-d20 = д20
 
 # carpet
 construction-graph-tag-black-carpet = чёрный ковёр
@@ -126,10 +132,13 @@ construction-graph-tag-brig-timer-electronics = микросхема бриг-т
 construction-graph-tag-wallmount-generator-circuit-board = микросхема настенного генератора
 construction-graph-tag-wallmount-apu-circuit-board = микросхема настенной ВСУ
 construction-graph-tag-wallmount-substation-circuit-board = микросхема настенной подстанции
-construction-graph-tag-surveillance-camera-monitor-board = плата монитор камер наблюдения
+construction-graph-tag-surveillance-camera-monitor-board = плата монитора камер наблюдения
 construction-graph-tag-television-board = плата телевизора
 construction-graph-tag-freezer-electronics = микросхема холодильника
 construction-graph-tag-turret-control-electronics = микросхема панели управления охранной турели
+construction-graph-tag-morgue-electronics = микросхема морга
+construction-graph-tag-crematorium-electronics = микросхема крематория
+construction-graph-tag-bar-sign-electronics = микросхема вывески бара
 
 # crystals
 construction-graph-tag-cyan-crystal-shard = голубой осколок кристалла
@@ -154,6 +163,8 @@ construction-graph-tag-spationaut-hardsuit = лёгкий скафандр ут�
 
 # clothing
 construction-graph-tag-backpack = рюкзак
+construction-graph-tag-towel-NT = фирменное полотенце NanoTrasen
+construction-graph-tag-towel-yellow = жёлтое полотенце
 
 # chemistry
 construction-graph-tag-centrifuge-compatible = пробирка

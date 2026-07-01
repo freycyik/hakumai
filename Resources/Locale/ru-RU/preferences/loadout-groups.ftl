@@ -41,6 +41,7 @@ loadout-group-passenger-gloves = Пассажир, перчатки
 loadout-group-passenger-outerclothing = Пассажир, верхняя одежда
 loadout-group-passenger-shoes = Пассажир, обувь
 loadout-group-passenger-neck = Пассажир, шея
+loadout-group-basic-wallet = Кошелёк
 
 loadout-group-bartender-head = Бармен, голова
 loadout-group-bartender-jumpsuit = Бармен, комбинезон

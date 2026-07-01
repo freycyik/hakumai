@@ -9,3 +9,5 @@ ent-ShotGunCabinetFilled = { ent-ShotGunCabinet }
 ent-ShotGunCabinetFilledOpen = { ent-ShotGunCabinetFilled }
     .desc = { ent-ShotGunCabinetFilled.desc }
     .suffix = Заполненный, Открытый
+ent-ShotGunCabinetAssembly = каркас шкафа для дробовика
+    .desc = Недостроенный шкаф для дробовика. Некоторые космонавты вешают готовое изделие над своими каминами.

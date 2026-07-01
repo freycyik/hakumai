@@ -111,4 +111,14 @@ ent-BoxFolderCentComClipboardThreePapers = { ent-BoxFolderCentComClipboardEmpty 
     .suffix = { ent-BoxFolderFillThreePapers.suffix }
 ent-BoxFolderQmClipboard = цифровой планшет заявок
     .desc = Громоздкий цифровой планшет, содержащий информацию о поставках и финансовых операциях. При таком количестве компрометирующих документов его следует беречь.
-
+ent-BoxFolderTitaniumBaseEmpty = бронепапка
+    .desc = Папка, созданная из цельного листа титана. Оснащена герметичным механизмом, который надёжно удерживает содержимое внутри. Долговечная, прочная и устойчивая к взрывам.
+ent-BoxFolderTitaniumRedEmpty = { ent-BoxFolderTitaniumBaseEmpty }
+    .desc = { ent-BoxFolderTitaniumBaseEmpty.desc }
+    .suffix = Красный
+ent-BoxFolderTitaniumGreenEmpty = { ent-BoxFolderTitaniumBaseEmpty }
+    .desc = { ent-BoxFolderTitaniumBaseEmpty.desc }
+    .suffix = Зелёный
+ent-BoxFolderTitaniumBlueEmpty = { ent-BoxFolderTitaniumBaseEmpty }
+    .desc = { ent-BoxFolderTitaniumBaseEmpty.desc }
+    .suffix = Синий

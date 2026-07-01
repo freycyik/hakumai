@@ -90,3 +90,7 @@ ent-GasPressureRegulatorAlt1 = { ent-GasPressureRegulator }
     .desc = { ent-GasPressureRegulator.desc }
 ent-GasPressureRegulatorAlt2 = { ent-GasPressureRegulator }
     .desc = { ent-GasPressureRegulator.desc }
+ent-HeatPumpAlt1 = { ent-HeatPump }
+    .desc = { ent-HeatPump.desc }
+ent-HeatPumpAlt2 = { ent-HeatPump }
+    .desc = { ent-HeatPump.desc }

@@ -48,6 +48,11 @@ stack-plasma-glass = { $amount ->
     [few] листа
     *[other] листов
 } плазменного стекла
+stack-phoron = { $amount ->
+    [1] лист
+    [few] листа
+    *[other] листов
+} форона
 stack-uranium = { $amount ->
     [1] лист
     [few] листа
@@ -68,6 +73,16 @@ stack-reinforced-plasma-glass = { $amount ->
     [few] листа
     *[other] листов
 } плазменного бронестекла
+stack-phoron-glass = { $amount ->
+    [1] лист
+    [few] листа
+    *[other] листов
+} форонового стекла
+stack-reinforced-phoron-glass = { $amount ->
+    [1] лист
+    [few] листа
+    *[other] листов
+} форонового бронестекла
 stack-reinforced-uranium-glass = { $amount ->
     [1] лист
     [few] листа
@@ -82,6 +97,51 @@ stack-cardboard = { $amount ->
     [few] листа
     *[other] листов
 } картона
+stack-titanium = { $amount ->
+    [1] лист
+    [few] листа
+    *[other] листов
+} титана
+stack-aluminium = { $amount ->
+    [1] лист
+    [few] листа
+    *[other] листов
+} алюминия
+stack-copper-ore = { $amount ->
+    [1] кусок
+    [few] куска
+    *[other] кусков
+} медной руды
+stack-tin-ore = { $amount ->
+    [1] кусок
+    [few] куска
+    *[other] кусков
+} оловянной руды
+stack-aluminum-ore = { $amount ->
+    [1] кусок
+    [few] куска
+    *[other] кусков
+} алюминиевой руды
+stack-titanium-ore = { $amount ->
+    [1] кусок
+    [few] куска
+    *[other] кусков
+} титановой руды
+stack-copper = { $amount ->
+    [1] слиток
+    [few] слитка
+    *[other] слитков
+} меди
+stack-tin = { $amount ->
+    [1] слиток
+    [few] слитка
+    *[other] слитков
+} олова
+stack-bronze = { $amount ->
+    [1] лист
+    [few] листа
+    *[other] листов
+} бронзы
 
 stack-bones = { $amount ->
     [1] кость
@@ -114,7 +174,7 @@ stack-explosive-cord = { $amount ->
     *[other] детонационных шнуров
 }
 stack-wood-plank = { $amount ->
-    [1] доску
+    [1] доска
     [few] доски
     *[other] досок
 }
@@ -162,10 +222,6 @@ stack-artifact-fragment = { $amount ->
     [few] фрагмента
     *[other] фрагментов
 } артефакта
-stack-conveyor-belt = { $amount ->
-    [1] конвейерная лента
-    *[other] конвейерные ленты
-}
 
 # best materials
 stack-ground-tobacco = { $amount ->
@@ -381,5 +437,32 @@ stack-white-marble-floor = белый мраморный пол
 stack-dark-marble-floor = чёрный мраморный пол
 stack-plasma-marble-floor = плазменный мраморный пол
 stack-uranium-marble-floor = урановый мраморный пол
+
+# salvage treasure coins
+stack-iron-coin = { $amount ->
+    [1] железная монета
+    [few] железные монеты
+    *[other] железных монет
+}
+stack-silver-coin = { $amount ->
+    [1] серебряная монета
+    [few] серебряные монеты
+    *[other] серебряных монет
+}
+stack-gold-coin = { $amount ->
+    [1] золотая монета
+    [few] золотые монеты
+    *[other] золотых монет
+}
+stack-adamantine-coin = { $amount ->
+    [1] адамантиновая монета
+    [few] адамантиновые монеты
+    *[other] адамантиновых монет
+}
+stack-diamond-coin = { $amount ->
+    [1] алмазная монета
+    [few] алмазные монеты
+    *[other] алмазных монет
+}
 stack-astro-ironsand-floor = астро-железный песок
-stack-astro-ironsand-floor-borderless = безграничный астро-железный песок
+stack-astro-ironsand-floor-borderless = астро-железный песок (без стыков)

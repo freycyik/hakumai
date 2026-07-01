@@ -13,3 +13,5 @@ ent-WeaponSubMachineGunWt550 = WT550
 ent-WeaponSubMachineGunBriefcase = коричневый чемодан
     .desc = Пригодится для переноски предметов в руках.
     .suffix = Оружие
+ent-WeaponSubMachineGunTypewriter = Пишущая машинка
+    .desc = Современный взгляд на классический дизайн, использовавшийся гангстерами во времени и пространстве. Печатает патронами калибра .35 авто.

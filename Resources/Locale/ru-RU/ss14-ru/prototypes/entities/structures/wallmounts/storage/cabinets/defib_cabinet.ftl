@@ -9,3 +9,5 @@ ent-DefibrillatorCabinetFilled = { ent-DefibrillatorCabinet }
 ent-DefibrillatorCabinetFilledOpen = { ent-DefibrillatorCabinetFilled }
     .desc = { ent-DefibrillatorCabinetFilled.desc }
     .suffix = Заполненный, Открытый
+ent-DefibrillatorCabinetAssembly = каркас шкафчика для дефибриллятора
+    .desc = Недостроенный шкафчик для дефибриллятора.

@@ -12,3 +12,6 @@ ent-Floodlight = прожектор
     .desc = Столб с установленными на него мощными фонарями.
 ent-FloodlightBroken = сломанный прожектор
     .desc = Столб с установленными на него мощными фонарями. Он сломан.
+ent-EmptyFloodlight = { ent-Floodlight }
+    .desc = { ent-Floodlight.desc }
+    .suffix = Пустой

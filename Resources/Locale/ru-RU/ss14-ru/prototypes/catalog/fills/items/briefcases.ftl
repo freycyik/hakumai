@@ -1,8 +1,8 @@
 ent-BriefcaseBrownFilled = { ent-BriefcaseBrown }
     .desc = { ent-BriefcaseBrown.desc }
     .suffix = Заполненный, Бумага
-ent-BriefcaseSyndieSniperBundleFilled = { ent-BriefcaseBrown }
-    .desc = { ent-BriefcaseBrown.desc }
+ent-BriefcaseSyndieSniperBundleFilled = комплект снайпера
+    .desc = Непримечательный чемоданчик, внутри которого находятся «Христов», 10 запасных патронов и удобная маскировка.
     .suffix = Заполненный, Христов
 ent-BriefcaseSyndieLobbyingBundleFilled = { ent-BriefcaseSyndie }
     .desc = { ent-BriefcaseSyndie.desc }

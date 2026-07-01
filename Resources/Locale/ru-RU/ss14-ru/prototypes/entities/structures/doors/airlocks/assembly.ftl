@@ -112,6 +112,6 @@ ent-AirlockAssemblyShuttleSyndicate = { ent-AirlockAssembly }
 ent-AirlockAssemblyShuttleSyndicateGlass = { ent-AirlockAssembly }
     .desc = { ent-AirlockAssembly.desc }
     .suffix = Шаттл Синдиката, Стеклянный
-ent-AirlockAssemblyHighSec = { ent-AirlockAssembly }
+ent-AirlockAssemblyHighSec = каркас бронедвери
     .desc = { ent-AirlockAssembly.desc }
     .suffix = Бронированная дверь

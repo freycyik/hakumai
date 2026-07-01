@@ -35,5 +35,3 @@ verb-common-close = Закрыть
 verb-common-open = Открыть
 verb-common-close-ui = Закрыть UI
 verb-common-open-ui = Открыть UI
-verb-common-enter = Залезть
-verb-common-exit = Вылезти

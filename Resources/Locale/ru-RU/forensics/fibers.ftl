@@ -25,6 +25,7 @@ fibers-orange = оранжевые
 fibers-white = белые
 fibers-yellow = жёлтые
 fibers-regal-blue = королевские синие
+fibers-regal-red = королевские красные
 fibers-olive = оливковые
 fibers-silver = серебряные
 fibers-gold = золотые

@@ -38,3 +38,6 @@ ent-BaseBarrelChemRadioactiveFilledRadium = { ent-BaseBarrelChemRadioactive }
 ent-BaseBarrelChemRadioactiveFilledUranium = { ent-BaseBarrelChemRadioactive }
     .desc = { ent-BaseBarrelChemRadioactive.desc }
     .suffix = Уран
+ent-BarrelChemFilledRandom = { ent-BaseBarrelChem }
+    .desc = { ent-BaseBarrelChem.desc }
+    .suffix = Случайный

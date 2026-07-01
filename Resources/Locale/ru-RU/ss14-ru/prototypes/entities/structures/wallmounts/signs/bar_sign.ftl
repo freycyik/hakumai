@@ -1,8 +1,12 @@
 ent-BaseBarSign = вывеска бара
     .desc = { ent-BaseWallmountGlass.desc }
+ent-BarSignAssembly = каркас барной вывески
+    .desc = { ent-BaseWallmountGlass.desc }
 ent-BarSign = вывеска бара
     .desc = { ent-BaseBarSign.desc }
     .suffix = Случайный
+ent-BarSignDefault = барная вывеска
+    .desc = Базовое, неоформленное состояние барной вывески. Оно призывает вас выбрать стиль.
 ent-BarSignComboCafe = Комбо Кафе
     .desc = Известны по всей системе своими совершенно некреативными комбинациями напитков.
 ent-BarSignEmergencyRumParty = Чрезвычайная вечеринка с ромом

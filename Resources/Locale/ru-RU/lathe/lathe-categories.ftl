@@ -6,6 +6,8 @@ lathe-category-machines = Машины
 lathe-category-parts = Компоненты
 lathe-category-tools = Инструменты
 lathe-category-weapons = Вооружение
+lathe-category-bureaucracy = Бюрократия
+lathe-category-religion = Религия
 
 # Biogen
 lathe-category-food = Пища
@@ -31,12 +33,8 @@ lathe-category-faux-tile = Искусственная
 lathe-category-maints-tile = Техи
 lathe-category-marble = Мрамор
 lathe-category-steel-tile = Сталь
-lathe-category-shuttle-tile = Шаттл
 lathe-category-white-tile = Белая
 lathe-category-wood-tile = Деревянная
-lathe-category-plastic-tile = Пластик
-lathe-category-precious-tile = Драгоценный
-lathe-category-industrial-tile = Индустриальный
 
 # Science
 lathe-category-mechs = Мехи
@@ -56,3 +54,8 @@ lathe-category-command = Командование
 lathe-category-hats = Шляпы
 lathe-category-jumpsuits = Комбинезоны
 lathe-category-neck = Шея
+lathe-category-shoes = Обувь
+lathe-category-gloves = Перчатки
+lathe-category-belts = Пояса
+lathe-category-glasses = Очки
+lathe-category-masks = Маски

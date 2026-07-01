@@ -27,3 +27,5 @@ ent-TelecomServerFilledService = { ent-TelecomServer }
 ent-TelecomServerFilledCommand = { ent-TelecomServer }
     .desc = { ent-TelecomServer.desc }
     .suffix = Командование
+ent-TelecomServer1k = высокотехнологичный телекоммуникационный сервер
+    .desc = { ent-TelecomServer.desc }

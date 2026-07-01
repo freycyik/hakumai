@@ -1,3 +1,6 @@
+ent-EmptyCan = алюминиевая банка
+    .desc = Легковесная алюминиевая банка с возможностью повторного закрытия, готовая к заполнению любым напитком на ваш выбор.
+    .suffix = Пустой
 ent-DrinkCanBaseFull = { ent-DrinkBase }
     .desc = { ent-DrinkBaseMaterialMetal.desc }
     .suffix = Полный

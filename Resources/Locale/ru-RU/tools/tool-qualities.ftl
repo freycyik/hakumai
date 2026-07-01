@@ -10,9 +10,6 @@ tool-quality-screwing-tool-name = Отвёртка
 tool-quality-cutting-name = Резка
 tool-quality-cutting-tool-name = Кусачки
 
-tool-quality-shearing-name = Стрижка
-tool-quality-shearing-tool-name = Кусачки
-
 tool-quality-welding-name = Варка
 tool-quality-welding-tool-name = Сварка
 
@@ -39,3 +36,6 @@ tool-quality-digging-tool-name = Лопата
 
 tool-quality-brushing-name = Оттирание
 tool-quality-brushing-tool-name = Проволочная щётка
+
+tool-quality-axing-name = Рубка топором
+tool-quality-axing-tool-name = Пожарный топор

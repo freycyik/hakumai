@@ -15,7 +15,6 @@ petting-success-dehydrated-carp = Вы гладите { $target } по { POSS-AD
 petting-success-dog = Вы гладите { $target } по { POSS-ADJ($target) } мягкой пушистой голове.
 petting-success-frog = Вы гладите { $target } по { POSS-ADJ($target) } маленькой скользкой голове.
 petting-success-goat = Вы гладите { $target } по { POSS-ADJ($target) } рогатой пушистой голове.
-petting-success-sheep = Вы гладите {THE($target)} по {POSS-ADJ($target)} мягкой пушистой голове.
 petting-success-goose = Вопреки всему, вам удаётся погладить { $target } по { POSS-ADJ($target) } маленькой ужасной голове.
 petting-success-kangaroo = Вы гладите { $target } по { POSS-ADJ($target) } прыгучей голове.
 petting-success-possum = Вы гладите { $target } по { POSS-ADJ($target) } маленькой ужасной голове.
@@ -43,7 +42,6 @@ petting-failure-corrupted-corgi = Вы тянетесь погладить { $ta
 petting-failure-crab = Вы тянетесь погладить { $target }, но { SUBJECT($target) } щёлкает клешнями в вашу сторону!
 petting-failure-dehydrated-carp = Вы гладите { $target } по { POSS-ADJ($target) } маленькой сухой голове.
 petting-failure-goat = Вы тянетесь погладить { $target }, но { SUBJECT($target) } упорно отказывается!
-petting-failure-sheep = Вы тянетесь погладить {THE($target)}, но {SUBJECT($target)} упорно отказывается!
 petting-failure-goose = Вы тянетесь погладить { $target }, но { SUBJECT($target) } слишком ужасен!
 petting-failure-possum = Вы тянетесь погладить { $target }, но сталкиваетесь с шипением и рычанием!
 petting-failure-pig = Вы тянетесь погладить { $target }, но сталкиваетесь с раздражённым хрюканьем и визгом!
@@ -75,6 +73,7 @@ petting-success-syndicate-cyborg = Вы гладите { $target } по { POSS-A
 petting-success-derelict-cyborg = Вы гладите { $target } по { POSS-ADJ($target) } ржавой металлической голове.
 petting-success-recycler = Вы гладите { $target } по { POSS-ADJ($target) } слегка пугающему стальному покрытию.
 petting-success-station-ai = Вы гладите { $target } по { POSS-ADJ($target) } холодному, квадратному экрану.
+petting-success-shredder = Вы тыкаете пальцем в прорезь для бумаги { $target }. Ай!
 
 petting-failure-honkbot = Вы тянетесь погладить { $target }, но { SUBJECT($target) } хонкает и уворачивается!
 petting-failure-cleanbot = Вы тянетесь погладить { $target }, но { SUBJECT($target) } занят уборкой!
@@ -90,6 +89,7 @@ petting-failure-service-cyborg = Вы тянетесь погладить { $tar
 petting-failure-syndicate-cyborg = Вы тянетесь погладить { $target }, но { POSS-ADJ($target) } предательская натура заставляет вас передумать.
 petting-failure-derelict-cyborg = Вы тянетесь погладить { $target }, но { POSS-ADJ($target) } ржавый и рваный внешний вид заставляет вас передумать.
 petting-failure-station-ai = Вы тянетесь погладить { $target }, но { POSS-ADJ($target) } разряд заставляет вас отдёрнуть руку.
+petting-failure-shredder = Вам определённо стоит держать пальцы подальше от { $target }.
 
 petting-success-station-ai-others = { CAPITALIZE($user) } гладит { $target } по { POSS-ADJ($target) } холодному, квадратному экрану.
 

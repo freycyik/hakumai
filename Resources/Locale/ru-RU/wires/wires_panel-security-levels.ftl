@@ -6,3 +6,6 @@ wires-panel-component-on-examine-security-level4 = Пласталевая пла
 wires-panel-component-on-examine-security-level5 = Внутренности [color=lightgray]технической панели [/color] защищены охранной решёткой. Используйте [color=cyan]кусачки[/color], чтобы убрать её.
 wires-panel-component-on-examine-security-level6 = Внутренности [color=lightgray]технической панели [/color] закрывает пласталевая пластина. Используйте [color=cyan]монтировку[/color], чтобы убрать её.
 wires-panel-component-on-examine-security-level7 = Внутренности [color=lightgray]технической панели [/color] защищены приваренной пласталевой пластиной. Используйте [color=cyan]сварочный аппарат[/color], чтобы убрать её.
+
+wires-panel-component-on-examine-security-level8 = Внутренности [color=lightgray]технической панели [/color] закрывает титановая пластина. Используйте [color=cyan]монтировку[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level9 = Внутренности [color=lightgray]технической панели [/color] защищены приваренной титановой пластиной. Используйте [color=cyan]сварочный аппарат[/color], чтобы убрать её.
