@@ -97,3 +97,18 @@ cargo-acquisition-slip-body = [head=3]Детали актива[/head] { "[bold]
     { "[head=3]Детали покупки[/head]" }
     { "[bold]Заказчик:[/bold]" } { $orderer }
     { "[bold]Причина:[/bold]" } { $reason }
+
+cargo-order-ticket-name = Билет на заказ #{$orderNumber}  
+cargo-order-ticket-text = [head=2]Билет на получение груза #{$orderNumber}[/head]  
+    {"[bold]Товар:[/bold]"} {$itemName} (x{$orderQuantity})  
+    {"[bold]Заказал:[/bold]"} {$requester}  
+    {"[bold]Одобрил:[/bold]"} {$approver}  
+    {"[bold]Причина:[/bold]"} {$reason}  
+  
+    {"[head=3]Получение[/head]"}  
+    {"[bold]Получить на станции:[/bold]"} {$tradeStation}  
+    {"[color=red]Билет действителен только на указанной станции.[/color]"}
+  
+cargo-ticket-not-trade-station = Этот аппарат не находится на торговой станции.  
+cargo-ticket-wrong-station = Этот билет можно использовать только на станции {$station}.  
+cargo-ticket-redeemed = Заказ выдан на станции {$station}!

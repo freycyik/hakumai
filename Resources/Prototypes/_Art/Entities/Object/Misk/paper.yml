@@ -1,0 +1,32 @@
+- type: entity
+  parent: PaperAcquisitionSlip
+  id: CargoOrderTicket
+  name: cargo order ticket
+  description: An approved cargo order ticket. Redeem it at the correct cargo dispenser.
+  components:
+  - type: Sprite
+    layers:
+    - state: acquisition_form
+    - state: acquisition_form_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
+    - state: acquisition_form_header
+      color: "#57b48b"
+    - state: paper_stamp-generic
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
+    - state: signature
+      map: ["enum.PaperVisualLayers.Signature"]
+      visible: false
+  - type: Paper
+    editingDisabled: true
+  - type: CargoOrderTicket
+
+- type: entity
+  id: CargoDispenser
+  name: cargo dispenser
+  parent: BaseComputerAiAccess
+  description: Insert a cargo order ticket to receive your goods.
+  components:
+  - type: CargoDispenser
+    printerOutput: Paper

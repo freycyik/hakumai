@@ -400,14 +400,15 @@ namespace Content.Server.Cargo.Systems
 
                 if (!ev.Handled)
                 {
-                    ev.FulfillmentEntity = TryFulfillOrder((station.Value, stationData), order.Account, order, orderDatabase, Name(args.Actor));
-
-                    if (ev.FulfillmentEntity == null)
+                    var tradeEntS = GetTradeStationByID(order.TradeStation);
+                    if (tradeEntS == null)
                     {
                         ConsolePopup(args.Actor, Loc.GetString("cargo-console-unfulfilled"));
                         PlayDenySound(uid, component);
                         return;
                     }
+                    ev.FulfillmentEntity = tradeEntS.Value;
+                    SpawnOrderTicket(uid, order);
                 }
                 if (!_bank.TryBankWithdraw(args.Actor, cost))
                 {
@@ -530,14 +531,15 @@ namespace Content.Server.Cargo.Systems
 
                 if (!ev.Handled)
                 {
-                    ev.FulfillmentEntity = TryFulfillOrder((station.Value, stationData), order.Account, order, orderDatabase);
-
-                    if (ev.FulfillmentEntity == null)
+                    var tradeEntP = GetTradeStationByID(order.TradeStation);
+                    if (tradeEntP == null)
                     {
                         ConsolePopup(args.Actor, Loc.GetString("cargo-console-unfulfilled"));
                         PlayDenySound(uid, component);
                         return;
                     }
+                    ev.FulfillmentEntity = tradeEntP.Value;
+                    SpawnOrderTicket(uid, order, Name(args.Actor));
                 }
 
                 order.Approved = true;
@@ -617,6 +619,49 @@ namespace Content.Server.Cargo.Systems
             }
 
             return tradeDestination;
+        }
+
+        private void SpawnOrderTicket(EntityUid consoleUid, CargoOrderData order, string? personalAccount = null)
+        {
+            var tradeEnt = GetTradeStationByID(order.TradeStation);
+            var tradeStationName = tradeEnt != null ? Name(tradeEnt.Value) : "Unknown";
+
+            var ticket = Spawn("CargoOrderTicket", Transform(consoleUid).Coordinates);
+
+            var ticketComp = EnsureComp<CargoOrderTicketComponent>(ticket);
+            ticketComp.OrderId          = order.OrderId;
+            ticketComp.Product          = order.Product;
+            ticketComp.OrderQuantity    = order.OrderQuantity;
+            ticketComp.Requester        = order.Requester;
+            ticketComp.Reason           = order.Reason;
+            ticketComp.Approver         = order.Approver;
+            ticketComp.Account          = order.Account;
+            ticketComp.TradeStation     = order.TradeStation;
+            ticketComp.TradeStationName = tradeStationName;
+            ticketComp.PersonalAccount  = personalAccount;
+
+            if (TryComp<PaperComponent>(ticket, out var paper))
+            {
+                _metaSystem.SetEntityName(ticket,
+                    Loc.GetString("cargo-order-ticket-name", ("orderNumber", order.OrderId)));
+
+                if (!_protoMan.TryIndex(order.Product, out var product))
+                    return;
+
+                _paperSystem.SetContent((ticket, paper),
+                    Loc.GetString("cargo-order-ticket-text",
+                        ("orderNumber",   order.OrderId),
+                        ("itemName",      product.Name),
+                        ("orderQuantity", order.OrderQuantity),
+                        ("requester",     order.Requester),
+                        ("reason",        string.IsNullOrWhiteSpace(order.Reason)
+                                              ? Loc.GetString("cargo-console-paper-reason-default")
+                                              : order.Reason),
+                        ("approver",      string.IsNullOrWhiteSpace(order.Approver)
+                                              ? Loc.GetString("cargo-console-paper-approver-default")
+                                              : order.Approver),
+                        ("tradeStation",  tradeStationName)));
+            }
         }
 
         private void GetTradeStations(StationDataComponent data, ref List<EntityUid> ents)
