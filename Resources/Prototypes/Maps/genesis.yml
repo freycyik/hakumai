@@ -1,7 +1,7 @@
 - type: gameMap
   id: Genesis
   mapName: 'Genesis'
-  mapPath: /Maps/genesis.yml
+  mapPath: /Maps/_Art/Station/base-station.yml
   minPlayers: 0
   maxPlayers: 7
   stations:
