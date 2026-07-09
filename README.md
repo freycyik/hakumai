@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🐀 Hakumai
+# 🐀 ratgoy
 
 **Форк Space Station 14 с уникальными механиками и контентом**
 
@@ -31,7 +31,7 @@
 
 ```
 # 1. Клонируйте репозиторий
-git clone https://github.com/ss14-art/hakumai.git
+git clone https://github.com/ss14-art/ratgoy.git
 cd ratgore
 
 # 2. Загрузите движок
@@ -50,7 +50,7 @@ Scripts\bat\runQuickAll.bat
 
 ```
 # 1. Клонируйте репозиторий
-git clone https://github.com/ss14-art/hakumai.git
+git clone https://github.com/ss14-art/ratgoy.git
 cd ratgore
 
 # 2. Загрузите движок
