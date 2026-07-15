@@ -1,4 +1,3 @@
-using Content.Client._Art.WebUI.UI; // ss14-art edit
 using Content.Client.FeedbackPopup;
 using Content.Client.Gameplay;
 using Content.Client.UserInterface.Controls;
@@ -29,7 +28,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
     [Dependency] private readonly GuidebookUIController _guidebook = default!;
     [Dependency] private readonly FeedbackPopupUIController _feedback = null!;
 
-    private WebEscapeMenu? _escapeWindow; // ss14-art edit
+    private Options.UI.EscapeMenu? _escapeWindow;
 
     private MenuButton? EscapeButton => UIManager.GetActiveUIWidgetOrNull<MenuBar.Widgets.GameTopMenuBar>()?.EscapeButton;
 
@@ -61,67 +60,64 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
     {
         DebugTools.Assert(_escapeWindow == null);
 
-        // ss14-art edit start
-        _escapeWindow = UIManager.CreateWindow<WebEscapeMenu>();
+        _escapeWindow = UIManager.CreateWindow<Options.UI.EscapeMenu>();
 
         _escapeWindow.OnClose += DeactivateButton;
         _escapeWindow.OnOpen += ActivateButton;
 
-        _escapeWindow.FeedbackPressed += () =>
+        _escapeWindow.FeedbackButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
             _feedback.ToggleWindow();
         };
 
-        _escapeWindow.ChangelogPressed += () =>
+        _escapeWindow.ChangelogButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
             _changelog.ToggleWindow();
         };
 
-        _escapeWindow.RulesPressed += () =>
+        _escapeWindow.RulesButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
             _info.OpenWindow();
         };
 
-        _escapeWindow.DisconnectPressed += () =>
+        _escapeWindow.DisconnectButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
             _console.ExecuteCommand("disconnect");
         };
 
-        _escapeWindow.OptionsPressed += () =>
+        _escapeWindow.OptionsButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
             _options.OpenWindow();
         };
 
-        _escapeWindow.QuitPressed += () =>
+        _escapeWindow.QuitButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
             _console.ExecuteCommand("quit");
         };
 
-        _escapeWindow.WikiPressed += () =>
+        _escapeWindow.WikiButton.OnPressed += _ =>
         {
             _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksWiki));
         };
 
-        _escapeWindow.GuidebookPressed += () =>
+        _escapeWindow.GuidebookButton.OnPressed += _ =>
         {
             _guidebook.ToggleGuidebook();
         };
 
-        _escapeWindow.DiscordPressed += () =>
+        _escapeWindow.DiscordButton.OnPressed += _ =>
         {
             _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksDiscord));
         };
 
-        _escapeWindow.SetLinkVisibility(
-            _cfg.GetCVar(CCVars.InfoLinksWiki) != "",
-            _cfg.GetCVar(CCVars.InfoLinksDiscord) != "");
-        // ss14-art edit end
+        // Hide wiki button if we don't have a link for it.
+        _escapeWindow.WikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
 
         CommandBinds.Builder
             .Bind(EngineKeyFunctions.EscapeMenu,
